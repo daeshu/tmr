@@ -25,12 +25,6 @@
 			backDelay: 1200
         });
 	}; // all loaded
-	
-	  
-}());
-
-
-
 // Send to Formspree
 $('.contact-form').on('submit', function(e) {
 		e.preventDefault();
@@ -63,6 +57,9 @@ $('.contact-form').on('submit', function(e) {
 });
 
 });
+//hasta aqui formspree
+	  
+}());
 
 /*
 	PLUGINS
