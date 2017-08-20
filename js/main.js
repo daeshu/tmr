@@ -29,9 +29,6 @@
 	  
 }());
 
-/*
-	Formspree
-*/
 
 // Send to Formspree
 $('.contact-form').on('submit', function(e) {
@@ -65,10 +62,6 @@ $('.contact-form').on('submit', function(e) {
 });
 
 });
-
-/*
-	/formspree
-*/
 
 
 /*
