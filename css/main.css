@@ -65,7 +65,6 @@ body {
 html.loaded body {
 	opacity: 1;
 	}
-
 /*  --------------------------------------------
 
 	2. TYPOGRAPHY (@typo) - typographic styles
@@ -191,6 +190,27 @@ p:last-child {
 		
 		
 		
+/*  --------------------------------------------
+
+	5. SIDEBAR (@elements) - common used elements
+	
+    -------------------------------------------- */ 
+
+.sidebar {
+  position: fixed;
+  display: block;
+  width: 450px;
+  max-width: 650px;
+  height: 100%;
+  top: 0;
+  left: -450px;
+  z-index: 10;
+  padding: 40px;
+  background-color: rgba(38, 39, 45, 0.95);
+  -webkit-transition: left 1.5s cubic-bezier(0.545, 0, 0.05, 1);
+  transition: left 1.5s cubic-bezier(0.545, 0, 0.05, 1);
+  overflow-x: auto;
+
 /*  --------------------------------------------
 
 	5. ELEMENTS (@elements) - common used elements
