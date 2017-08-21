@@ -188,28 +188,6 @@ p:last-child {
 	content: ""; position: fixed; z-index: 200; pointer-events: none; top: 0; left: 0; right: 0; bottom: 0; border: 15px solid #111; 
 	}
 		
-		
-		
-/*  --------------------------------------------
-
-	5. SIDEBAR (@elements) - common used elements
-	
-    -------------------------------------------- */ 
-
-.sidebar {
-  position: fixed;
-  display: block;
-  width: 450px;
-  max-width: 650px;
-  height: 100%;
-  top: 0;
-  left: -450px;
-  z-index: 10;
-  padding: 40px;
-  background-color: rgba(38, 39, 45, 0.95);
-  -webkit-transition: left 1.5s cubic-bezier(0.545, 0, 0.05, 1);
-  transition: left 1.5s cubic-bezier(0.545, 0, 0.05, 1);
-  overflow-x: auto;
 
 /*  --------------------------------------------
 
